@@ -1,0 +1,16 @@
+#top
+{
+	border: 1px black solid;
+	background-image: url(img/photo.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+h1, h1+p
+{
+	text-align: center;
+}
+
+div:hover
+{
+	border-left: 3px black solid;
+}
