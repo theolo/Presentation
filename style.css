@@ -1,16 +1,74 @@
-#top
-{
-	border: 1px black solid;
-	background-image: url(img/photo.png);
-	background-repeat: no-repeat;
-	background-position: left;
-}
-h1, h1+p
-{
-	text-align: center;
+@import url('https://rsms.me/inter/inter-ui.css');
+html { font-family: 'Inter UI', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter UI var alt', sans-serif; }
 }
 
-div:hover
+body
+{
+
+}
+
+#block
+{
+	margin: 0 auto;
+	width: 900px;
+}
+
+h1
+{
+	font-size: 3.5em;
+	margin: 0;
+}
+
+h1+p
+{
+	font-size: 1.3em;
+	margin: 0;
+}
+
+/*.para:hover
 {
 	border-left: 3px black solid;
+}*/
+
+.menudiv
+{
+	margin: 0;
+	padding: 0;
+}
+
+.menunav
+{
+	margin: 0;
+	padding: 0;
+}
+
+.menulist
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-top: 2px darkgrey solid;
+}
+
+.menulist li
+{
+	display: inline-block;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.menulist li:hover
+{
+	border-top: 4px grey solid;
+
+}
+
+.menulist li a
+{
+
+	text-decoration: none;
+	color: black;
+	margin-right: 50px; 
 }
