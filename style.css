@@ -6,11 +6,6 @@ html { font-family: 'Inter UI', sans-serif; }
 
 body
 {
-
-}
-
-#block
-{
 	margin: 0 auto;
 	width: 900px;
 }
@@ -27,29 +22,21 @@ h1+p
 	margin: 0;
 }
 
-/*.para:hover
+article
 {
-	border-left: 3px black solid;
-}*/
-
-.menudiv
-{
-	margin: 0;
-	padding: 0;
+	margin-top: 50px;
 }
 
 .menunav
 {
-	margin: 0;
-	padding: 0;
+	margin-top: 40px;
 }
 
 .menulist
 {
-	margin: 0;
-	padding: 0;
 	list-style: none;
 	border-top: 2px darkgrey solid;
+	padding-left: 0;
 }
 
 .menulist li
@@ -61,13 +48,12 @@ h1+p
 
 .menulist li:hover
 {
-	border-top: 4px grey solid;
-
+	padding-top: 8px;
+	border-top: 2px grey solid; 
 }
 
 .menulist li a
 {
-
 	text-decoration: none;
 	color: black;
 	margin-right: 50px; 
