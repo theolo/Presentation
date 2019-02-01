@@ -51,27 +51,20 @@ article
 	padding-top: 10px;
 }
 
-.menulist li:hover
-{
-		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-
-}
-
 .menulist li a
 {
 	text-decoration: none;
 	color: black;
-	margin: 0px 56.9px;
+	margin: 0px 55px;
 }
 
-.menulist li a:hover
+.menulist li a:hover, .active
 {
 	padding-top: 8px;
 	border-top: 2px black solid;
-	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
 }
 
-.menulist li a:active
+.active
 {
-	font-size: bold;
+	font-weight: bold;
 }
