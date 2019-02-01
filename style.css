@@ -10,6 +10,11 @@ body
 	width: 900px;
 }
 
+header
+{
+	margin-top: 30px;
+}
+
 h1
 {
 	font-size: 3.5em;
@@ -35,7 +40,7 @@ article
 .menulist
 {
 	list-style: none;
-	border-top: 2px darkgrey solid;
+	border-top: 2px black solid;
 	padding-left: 0;
 }
 
@@ -48,13 +53,25 @@ article
 
 .menulist li:hover
 {
-	padding-top: 8px;
-	border-top: 2px grey solid; 
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+
 }
 
 .menulist li a
 {
 	text-decoration: none;
 	color: black;
-	margin-right: 56px; 
+	margin: 0px 56.9px;
+}
+
+.menulist li a:hover
+{
+	padding-top: 8px;
+	border-top: 2px black solid;
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+}
+
+.menulist li a:active
+{
+	font-size: bold;
 }
