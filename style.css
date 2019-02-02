@@ -32,6 +32,33 @@ article
 	margin-top: 50px;
 }
 
+#profil
+{
+	float: left;
+	margin-right: 50px;
+	width: 230px;
+	height: 230px;
+}
+
+#go
+{
+	display: inline-block;
+	background-color: #e8e8e8;
+	padding: 15px 15px 15px 30px;
+	border-radius: 30px;
+}
+
+#go a
+{
+	text-decoration: none;
+	color: black;
+}
+
+#arrow
+{
+	margin-left: 10px;
+}
+
 .menunav
 {
 	margin-top: 40px;
@@ -40,7 +67,7 @@ article
 .menulist
 {
 	list-style: none;
-	border-top: 2px black solid;
+	border-top: 1px black solid;
 	padding-left: 0;
 }
 
@@ -55,7 +82,7 @@ article
 {
 	text-decoration: none;
 	color: black;
-	margin: 0px 55px;
+	margin-right: 70px;
 }
 
 .menulist li a:hover, .active
