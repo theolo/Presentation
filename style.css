@@ -37,7 +37,6 @@ h2
 	padding-right: 100px;
 }
 
-
 h3
 {
 	margin: 0;
@@ -54,6 +53,58 @@ h5
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	padding-bottom: 15px;
 	margin-bottom: 20px;
+}
+
+strong
+{
+	font-weight: 600;
+}
+
+small
+{
+	font-weight: 400;
+}
+
+article
+{
+	margin-top: 50px;
+}
+
+.menunav
+{
+	margin-top: 40px;
+}
+
+.menulist
+{
+	list-style: none;
+	border-top: 1px black solid;
+	padding-left: 0;
+}
+
+.menulist li
+{
+	display: inline-block;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.menulist li a
+{
+	text-decoration: none;
+	color: black;
+	margin-right: 70px;
+}
+
+.menulist li a:hover, .active
+{
+	padding-top: 8px;
+	border-top: 2px black solid;
+}
+
+.active
+{
+	font-weight: bold;
 }
 
 #preambule
@@ -75,21 +126,6 @@ h5
 #preambule p
 {
 	font-weight: 300;
-}
-
-strong
-{
-	font-weight: 600;
-}
-
-small
-{
-	font-weight: 400;
-}
-
-article
-{
-	margin-top: 50px;
 }
 
 #profil
@@ -145,46 +181,14 @@ article
 	margin-left: 10px;
 }
 
-.menunav
+#motif
 {
-	margin-top: 40px;
-}
-
-.menulist
-{
-	list-style: none;
-	border-top: 1px black solid;
-	padding-left: 0;
-}
-
-.menulist li
-{
-	display: inline-block;
-	margin: 0;
-	padding-top: 10px;
-}
-
-.menulist li a
-{
-	text-decoration: none;
-	color: black;
-	margin-right: 70px;
-}
-
-.menulist li a:hover, .active
-{
-	padding-top: 8px;
-	border-top: 2px black solid;
-}
-
-.active
-{
-	font-weight: bold;
+	border: 1px #CCCCCC solid;
+	padding: 10px 40px;
 }
 
 #end
 {
-	border: 1px #CCCCCC solid;
 	padding: 20px;
 	margin-bottom: 100px;
 }
