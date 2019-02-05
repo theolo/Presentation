@@ -4,6 +4,10 @@ html { font-family: 'Inter UI', sans-serif; }
   html { font-family: 'Inter UI var alt', sans-serif; }
 }
 
+*
+{
+	color: #333;
+}
 body
 {
 	margin: 0 auto;
@@ -190,6 +194,6 @@ article
 
 #end
 {
-	padding: 20px;
+	padding: 50px;
 	margin-bottom: 100px;
 }
