@@ -1,2 +1,2 @@
 # Presentation
-Page simple pour présenter qui je suis.
+Page simple pour présenter mon parcours.
